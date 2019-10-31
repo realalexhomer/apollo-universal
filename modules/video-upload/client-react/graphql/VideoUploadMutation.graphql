@@ -1,0 +1,5 @@
+mutation videoUploadMutation($title: String!) {
+  videoUploadMutation(title: $title) {
+    title
+  }
+}
